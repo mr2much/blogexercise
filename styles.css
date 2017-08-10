@@ -1,0 +1,42 @@
+body {	
+	margin: 20px auto;
+	max-width: 700px;	
+	width: 80%;
+	border: 20px solid #BDC3C7;
+	font-family: 'Open Sans', sans-serif;
+	padding: 20px;
+}
+
+h2 {	
+	color: #2C3E50;
+	font-size: 2.0rem;
+	font-weight: bold;
+}
+
+p {
+	text-align: justify;
+}
+
+/* First <p> inside a div */
+div p:first-of-type {
+	padding-left: 10px;
+	border-left: 4px solid #BDC3C7;
+}
+
+/* Gradient transparent - color - transparent */
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.post {
+	margin-bottom: 20px;
+}
+
+.date {
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+	color: #3498DB;	
+}
